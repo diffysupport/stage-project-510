@@ -8,9 +8,11 @@ basic:
         - 640
         - 1024
         - 1200
+        - 1440
     pages:
         - /
         - /about-us
+        - /drupal
         - /services
     monitoring:
         days: {  }
@@ -31,8 +33,8 @@ advanced:
     custom_css: ''
     mock_content: ''
     sensitivity: 15
-    night_mode: ''
-    retina_images: ''
+    night_mode: false
+    retina_images: false
     performance:
         workers_production: 30
         workers_nonproduction: 10
